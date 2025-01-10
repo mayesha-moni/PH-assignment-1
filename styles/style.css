@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans";
+    background-color: #F5F5F5;
+}
+#nav-container{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    align-items: center;
+}
+
+#btn-signin{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #009973;
+    font-family: "Fira Sans";
+    color: #006A50;
+    font-weight: bold;
+}
+nav{
+    margin-bottom: 30px;
+}
+
+
+/* banner designing */
+
+#banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+#banner-container{
+    display: flex;
+    background-color: #C6E4D6;
+    border: none;
+    padding: 60px;
+    border-radius: 24px;
+    width: 70%;
+}
+.banner-content{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#banner-container > div{
+    background-color: #C6E4D6;
+}
+#banner-img{
+    background-color: #C6E4D6;
+    width: 300px;
+}
+#banner-title{
+    font-weight: 600;
+    background-color: #C6E4D6;
+    opacity: 30%;
+}
+#banner-h1{
+    background-color: #C6E4D6;
+    font-size: 37.5px;
+}
+.img-container{
+    padding-left: 70px;
+}
+#btn-explore{
+    width: 260px;
+    background-color: #006A50;
+    border-radius: 5px;
+    padding: 10px 3px;
+    border: none;
+    color: white;
+}
+#vision-sect{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.vision-subtitle{
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 13.5px;
+}
+.vision-title{
+    font-weight: bold;
+    font-size: 34px;
+    color: black;
+}
+.img-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.vision-img-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 190px;
+    border: none;
+    border-radius: 16px;
+    
+    background-color: #548ff550;
+    gap: 15px;
+}
+.vision-img{
+    width: 40px;
+    background-color: #548ff500;
+}
+.vision-img-title{
+    font-size: 16px;
+    background-color: #548ff500;
+
+}
+.vision-img-desc{
+    width: 90%;
+    font-size: 12px;
+    background-color: #548ff500;
+    color: #0E0E0E;
+    opacity: 70%;
+    width: 330;
+}
+.btn-vision{
+    width: 120px;
+    color: white;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 10px;
+}
+#vision-2{
+    background-color: #C6E4D6;
+}
+#vision-btn-2{
+    background-color: #09A15C;
+}
+#vision-3{
+    background-color: #F7EBCF;
+}
+#vision-btn-3{
+    background-color: #FFC239;
+}
