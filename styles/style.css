@@ -231,6 +231,7 @@ nav{
 #donate-today p{
     font-size: 15px;
     opacity: 70%;
+    text-align: center;
 }
 .donate-container{
     display: flex;
@@ -255,4 +256,30 @@ nav{
 }
 #green-taka{
     background-color: #C6E4D6;
+}
+#other-amount{
+    width: 900px;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+}
+input[type="text"]::placeholder{
+    text-align: center;
+}
+
+#donate-btn{
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color:  #006A50;
+    font-size: 12px;
+    width: 120px;
+}
+div > form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
