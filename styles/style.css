@@ -84,6 +84,7 @@ nav{
     width: 300px;
     height: 40px;
 }
+/* vision of future */
 #vision-sect{
     width: 80%;
     display: flex;
@@ -227,6 +228,8 @@ nav{
     background-color:  #006A50;
     font-size: 12px
 }
+/*-------------------------------------*/
+
 #donate-today{
     display: flex;
     flex-direction: column;
@@ -364,6 +367,9 @@ div > form{
     opacity: 30%;
     font: white;
 }
+
+/* quote-section */
+
 #quote-sect{
     display: flex;
     flex-direction: column;
