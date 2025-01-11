@@ -22,6 +22,10 @@
     color: #006A50;
     font-weight: bold;
 }
+#btn-signin:hover{
+    background-color: #53b49c;
+}
+
 nav{
     margin-bottom: 30px;
 }
@@ -74,6 +78,11 @@ nav{
     padding: 10px 3px;
     border: none;
     color: white;
+}
+#btn-explore:hover{
+    background-color: #10a580;
+    width: 300px;
+    height: 40px;
 }
 #vision-sect{
     width: 80%;
@@ -218,7 +227,6 @@ nav{
     background-color:  #006A50;
     font-size: 12px
 }
-
 #donate-today{
     display: flex;
     flex-direction: column;
@@ -257,6 +265,9 @@ nav{
 #green-taka{
     background-color: #C6E4D6;
 }
+#green-taka:hover{
+    background-color: #2d5f53c5;
+}
 #other-amount{
     width: 900px;
     padding: 15px;
@@ -282,4 +293,111 @@ div > form{
     flex-direction: column;
     gap: 20px;
     align-items: center;
+}
+#sub-newsletter{
+    display: flex;
+    justify-content: center;
+
+}
+#sub-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    padding: 30px;
+    gap: 30px;
+    width: 80%;
+    
+}
+#sub-container p{
+    background-color: #C6E4D6;
+}
+
+#sub-container h1{
+    background-color: #C6E4D6;
+}
+#sub-container p{
+    font-size: 13px;
+    opacity: 70%;
+    width: 60%;
+    margin: 0 auto;
+}
+#sub-container form{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #C6E4D6;
+
+}
+#email-inp{
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    width: 70%;
+}
+#email-inp::placeholder{
+    text-align: left;
+}
+#subscribe-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+}
+
+.taka-container > button:hover{
+    background-color: #2a6d5ccc;
+}
+
+.news-btn:hover{
+    background-color: #2d9b7f;
+
+}
+#donate-btn:hover{
+    background-color: #4a917fc5;
+}
+.btn-vision:hover{
+    opacity: 30%;
+    font: white;
+}
+#quote-sect{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+#quote-container{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid rgba(148, 148, 148, 0.301);
+    justify-content: center;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
+#quote-container #quote-p1{
+    font-size: 13px;
+    opacity: 70%;
+    margin-bottom: 12px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#quote-container #quote-p2{
+    font-size: 15px;
+    opacity: 70%;
+    margin-top: 4px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#quote-container h4{
+    background-color: rgba(255, 255, 255, 0);
 }
